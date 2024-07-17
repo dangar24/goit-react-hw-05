@@ -1,0 +1,11 @@
+.list {
+    margin-top: 40px;
+        margin-left: 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.title {
+    margin-bottom: 8px;
+}

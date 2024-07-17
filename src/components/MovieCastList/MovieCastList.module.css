@@ -1,0 +1,11 @@
+.list {
+    margin-top: 40px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.img {
+    width: 150px;
+}
