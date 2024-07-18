@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
-import css from './TrendingList.module.css'
+import css from './MovieList.module.css'
 
 export default function TrendingList({ movies }) {
 

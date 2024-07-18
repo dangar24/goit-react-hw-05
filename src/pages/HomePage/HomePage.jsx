@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { getTrending } from '../../api'
-import TrendingList from '../../components/TrendingList/TrendingList'
+import MovieList from '../../components/MovieList/MovieList'
 import Error from '../../components/Error/Error'
 import Loader from '../../components/Loader/Loader'
 import css from './HomePage.module.css'
@@ -32,6 +32,6 @@ export default function HomePage() {
         <h1 className={css.title}>Trending Today</h1>
         {loader && <Loader />}
         {error && <Error />}
-        {movies.length >0 && <TrendingList movies={movies} />}
+        {movies.length >0 && <MovieList movies={movies} />}
     </div>
 }
